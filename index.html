@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae - Alvita Kalila</title>
+   
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+    
+        <section id="home" class="profile-section">
+            <div class="profile-content">
+                <img src="vita.jpeg" alt="Foto Profil Alvita Kalila" class="profile-img">
+                <div class="profile-text">
+                    <h1>Alvita Kalila</h1>
+                    <h2>Web Developer & IoT Engineer</h2>
+                    <p>Bekasi, Jawa Barat, Indonesia</p>
+                    <p>alvita.kalila@email.com | 0812-XXXX-XXXX | LinkedIn: /in/alvitakalila</p>
+                    <button onclick="window.print()" class="btn-download">Print / Download CV</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="content-section">
+            <h3>About Me</h3>
+            <p>Mahasiswi D3 Teknik Komputer dengan minat mendalam pada pengembangan sistem embedded (IoT) dan rekayasa web. Memiliki pengalaman praktis dalam mengintegrasikan perangkat keras mikrokontroler dengan antarmuka web dan aplikasi mobile untuk menciptakan solusi teknologi yang efisien.</p>
+        </section>
+
+        <section id="education" class="content-section">
+            <h3>Education</h3>
+            <article class="timeline-item">
+                <h4>D3 Teknik Komputer - Universitas Bani Saleh</h4>
+                <p>2024 - Sekarang (Aktif)</p>
+                <p>Bekasi, Jawa Barat. Menjabat sebagai Sekretaris Dewan Perwakilan Mahasiswa (DPM) dan Asisten Laboratorium Sistem Operasi.</p>
+            </article>
+            <article class="timeline-item">
+                <h4>SMK (Keperawatan)</h4>
+                <p>Lulusan Keperawatan dengan dasar pemahaman kesehatan yang kuat, kini bertransisi secara profesional ke bidang Teknologi Informasi.</p>
+            </article>
+        </section>
+
+        <section id="experience" class="content-section">
+            <h3>Work Experience & Organization</h3>
+            <ul>
+                <li><strong>Asisten Laboratorium Sistem Operasi</strong> - Fakultas Teknologi Informasi & Digital, Universitas Bani Saleh (Sep 2026 - Sekarang)</li>
+                <li><strong>Sekretaris DPM & Mantan Sekretaris HIMATEKOM</strong> - Universitas Bani Saleh</li>
+                <li><strong>Duta Kampus & Koordinator Acara (UBS Run, MAESTRO 2026)</strong> - Universitas Bani Saleh</li>
+                <li><strong>Owner & Pengelola Bisnis</strong> - CHIVI.SHOP & Mulbuys.go (Jastip Merchandise)</li>
+            </ul>
+        </section>
+
+
+        <section id="skills" class="content-section bg-light">
+            <h3>Skills</h3>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h4>Web & Mobile Development</h4>
+                    <ul>
+                        <li>HTML5, CSS3, JavaScript, AJAX</li>
+                        <li>PHP Native, MySQL</li>
+                        <li>Kotlin, Jetpack Compose, Android Studio</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h4>IoT & Hardware</h4>
+                    <ul>
+                        <li>Arduino Uno, ESP32</li>
+                        <li>RFID MFRC522, Sensor Integrasi</li>
+                        <li>Cisco Packet Tracer, Linux (Debian)</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h4>Design & Tools</h4>
+                    <ul>
+                        <li>Figma, Canva</li>
+                        <li>Git, GitHub, Docker</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio" class="content-section">
+            <h3>Projects / Portfolio</h3>
+            <div class="portfolio-grid">
+                <article class="portfolio-card">
+                    <h4>KARPIN POSBINDU</h4>
+                    <p>Sistem dispenser obat pintar dan manajemen Posbindu untuk lansia menggunakan ESP32, Smart Card RFID, dan sinkronisasi data online/offline.</p>
+                </article>
+                <article class="portfolio-card">
+                    <h4>SI-KIA PINTAR</h4>
+                    <p>Kartu Pintar Posyandu berbasis IoT dan RFID untuk digitalisasi rekam medis secara real-time. Lolos seleksi PKM-KC / PIMNAS 2026.</p>
+                </article>
+                <article class="portfolio-card">
+                    <h4>SIMPLE (Monitoring Daya)</h4>
+                    <p>Sistem monitoring konsumsi daya listrik real-time berbasis IoT yang berhasil mendapatkan Hak Kekayaan Intelektual (HAKI) dan Juara Teknologi Tepat Guna Kota Bekasi.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="contact" class="content-section">
+            <h3>Contact Me</h3>
+            <form action="#" method="POST" class="contact-form">
+                <input type="text" placeholder="Nama Anda" required>
+                <input type="email" placeholder="Email Anda" required>
+                <textarea rows="4" placeholder="Pesan" required></textarea>
+                <button type="submit" class="btn-submit">Kirim Pesan</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Alvita Kalila. Dibuat untuk UTS Teknologi Web Universitas Bani Saleh.</p>
+    </footer>
+</body>
+</html>
